@@ -47,6 +47,12 @@
 
 ### Websites
 
+* [OpenCensus](https://opencensus.io/)
+  * [GitHub: census-instrumentation org](https://github.com/census-instrumentation)
+  * [GitHub: census-ecosystem org](https://github.com/census-ecosystem)
+* [OpenTracing](https://opentracing.io/)
+  * [blog: Merging OpenTracing and OpenCensus: Goals and Non-Goals](https://medium.com/opentracing/merging-opentracing-and-opencensus-f0fe9c7ca6f0)
+
 ### Community
 
 #### Japan
