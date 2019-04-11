@@ -11,6 +11,7 @@
   - [Ruby](#ruby)
   - [Erlang/Elixir](#erlangelixir)
   - [Python](#python)
+  - [For Middlewares](#for-middlewares)
 - [Exporters](#exporters)
   - [Go](#go-1)
   - [Java](#java-1)
@@ -42,6 +43,7 @@
 
 - [opencensus-go](https://github.com/census-instrumentation/opencensus-go)
 - [ocsql](https://github.com/opencensus-integrations/ocsql): OpenCensus SQL database driver wrapper for Go
+- [gomongowrapper](https://github.com/opencensus-integrations/gomongowrapper): MongoDB Go wrapper source code
 
 ### Java
 
@@ -49,6 +51,7 @@
 - [opencensus-scala](https://github.com/census-ecosystem/opencensus-scala): Lightweight scala wrapper for the opencensus-java
 - [opencensus-java-jdbc](https://github.com/census-ecosystem/opencensus-java-jdbc)
 - [inspectIT Ocelot](http://docs.inspectit.rocks/releases/latest/)
+- [ocspymemcached](https://github.com/opencensus-integrations/ocspymemcached): Spymemcached wrapper instrumented with OpenCensus
 
 ### C#
 
@@ -83,6 +86,13 @@
 ### Python
 
 - [opencensus-python](https://github.com/census-instrumentation/opencensus-python)
+- [ocredispy](https://github.com/opencensus-integrations/ocredispy): OpenCensus wrapper for redis-py
+- [ocpymemcache](https://github.com/opencensus-integrations/ocpymemcache): PyMemcache Python wrapper with observability provided by OpenCensus
+
+### For Middlewares
+
+- MongoDB
+  - [mongostatusd](https://github.com/opencensus-integrations/mongostatusd): MongoDB server status daemon
 
 ## Exporters
 
@@ -207,6 +217,7 @@
 
 ### Go
 
+- [go-kit-example](https://github.com/opencensus-integrations/go-kit-example): Go kit OpenCensus bootstrapping example
 - [opencensus-gokit-example](https://github.com/basvanbeek/opencensus-gokit-example)
 - [Tutorial for OpenCensus for gRPC Go developers](https://github.com/orijtech/opencensus-for-grpc-go-developers)
 
