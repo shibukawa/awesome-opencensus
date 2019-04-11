@@ -13,6 +13,7 @@
   - [Python](#python)
 - [Instrumentation](#instrumentation)
   - [Java](#java-1)
+- [Supported Backends](#supported-backends)
 - [Resources](#resources)
   - [Websites](#websites)
   - [Community](#community)
@@ -42,6 +43,8 @@
 ### Java
 
 - [inspectIT Ocelot](http://docs.inspectit.rocks/releases/latest/)
+
+## Supported Backends
 
 ## Resources
 
