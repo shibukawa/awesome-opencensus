@@ -43,6 +43,9 @@
 ### C#
 
 - [opencensus-csharp](https://github.com/census-instrumentation/opencensus-csharp)
+  - [ASP.NET Core incoming requests collector](https://github.com/census-instrumentation/opencensus-csharp/#using-aspnet-core-incoming-requests-collector)
+  - [Outgoing http calls made by .NET Core HttpClient](https://github.com/census-instrumentation/opencensus-csharp/#using-dependencies-collector)
+  - [StackExchange.Redis collector](https://github.com/census-instrumentation/opencensus-csharp/#using-stackexchangeredis-collector)
 
 ### C++
 
@@ -51,6 +54,12 @@
 ### JavaScript
 
 - [opencensus-node](https://github.com/census-instrumentation/opencensus-node) 
+  - [HTTP](https://github.com/census-instrumentation/opencensus-node/blob/master/packages/opencensus-instrumentation-http/README.md)
+  - [HTTPS](https://github.com/census-instrumentation/opencensus-node/blob/master/packages/opencensus-instrumentation-https/README.md)
+  - [HTTP2](https://github.com/census-instrumentation/opencensus-node/blob/master/packages/opencensus-instrumentation-http2/README.md)
+  - [GRPC](https://github.com/census-instrumentation/opencensus-node/blob/master/packages/opencensus-instrumentation-grpc/README.md)
+  - [IORedis](https://github.com/census-instrumentation/opencensus-node/blob/master/packages/opencensus-instrumentation-ioredis/README.md)
+  - [Redis](https://github.com/census-instrumentation/opencensus-node/blob/master/packages/opencensus-instrumentation-redis/README.md)
 - [opencensus-web](https://github.com/census-instrumentation/opencensus-web): Experimental pre-alpha stage
 
 ### Ruby
@@ -108,21 +117,47 @@
 
 ### C#
 
+- [Stackdriver](https://github.com/census-instrumentation/opencensus-csharp/#using-stackdriver-exporter)
+- [Azure Application Insights](https://github.com/census-instrumentation/opencensus-csharp/#using-application-insights-exporter)
+
 #### Tracing
 
+- [Zipkin](https://github.com/census-instrumentation/opencensus-csharp/#using-zipkin-exporter)
+
 #### Stats/Metrics
+
+- [Prometheus](https://github.com/census-instrumentation/opencensus-csharp/#using-prometheus-exporter)
 
 ### C++
 
+- [Stackdriver](https://github.com/census-instrumentation/opencensus-cpp/blob/master/opencensus/exporters/stats/stackdriver/README.md)
+- Stdout: [Tracing](https://github.com/census-instrumentation/opencensus-cpp/tree/master/opencensus/exporters/trace/stdout), [Stats](https://github.com/census-instrumentation/opencensus-cpp/tree/master/opencensus/exporters/stats/stdout)
+
 #### Tracing
 
+- [Zipkin](https://github.com/census-instrumentation/opencensus-cpp/tree/master/opencensus/exporters/trace/zipkin
+)
+
 #### Stats/Metrics
+
+- [Prometheus](https://github.com/census-instrumentation/opencensus-cpp/tree/master/opencensus/exporters/stats/prometheus)
 
 ### JavaScript
 
+- Node.js
+  - [Stackdriver](https://github.com/census-instrumentation/opencensus-node/blob/master/packages/opencensus-exporter-stackdriver/README.md)
+
 #### Tracing
 
+- Node.js
+  - [Jaeger](https://github.com/census-instrumentation/opencensus-node/blob/master/packages/opencensus-exporter-jaeger/README.md)
+  - [Zipkin](https://github.com/census-instrumentation/opencensus-node/blob/master/packages/opencensus-exporter-zipkin/README.md)
+  - [Instana](https://github.com/census-instrumentation/opencensus-node/blob/master/packages/opencensus-exporter-instana/README.md)
+
 #### Stats/Metrics
+
+- Node.js
+  - [Prometheus](https://github.com/census-instrumentation/opencensus-node/blob/master/packages/opencensus-exporter-prometheus/README.md)
 
 ### Ruby
 
