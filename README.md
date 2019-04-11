@@ -37,6 +37,7 @@
 
 - [opencensus-java](https://github.com/census-instrumentation/opencensus-java): 
 - [opencensus-scala](https://github.com/census-ecosystem/opencensus-scala): Lightweight scala wrapper for the opencensus-java
+- [opencensus-java-jdbc](https://github.com/census-ecosystem/opencensus-java-jdbc)
 - [inspectIT Ocelot](http://docs.inspectit.rocks/releases/latest/)
 
 ### C#
@@ -68,20 +69,91 @@
 
 ### Go
 
+- [OpenCensus Agent](https://opencensus.io/exporters/supported-exporters/go/ocagent/)
+- [Stackdriver](https://opencensus.io/exporters/supported-exporters/go/stackdriver/)
+- [Datadog](https://opencensus.io/exporters/supported-exporters/go/datadog/)
+
+#### Tracing
+
+- [Honeycomb.io](https://opencensus.io/exporters/supported-exporters/go/honeycomb/)
+- [Jaeger](https://opencensus.io/exporters/supported-exporters/go/jaeger/)
+- [Zipkin](https://opencensus.io/exporters/supported-exporters/go/zipkin/)
+- [AWS X-Ray](https://opencensus.io/exporters/supported-exporters/go/xray/)
+
+#### Stats/Metrics
+
+- [Prometheus](https://opencensus.io/exporters/supported-exporters/go/prometheus/)
+- [opencensus-go-exporter-signalfx](https://github.com/census-ecosystem/opencensus-go-exporter-signalfx)
+- [opencensus-go-exporter-graphite](https://github.com/census-ecosystem/opencensus-go-exporter-graphite)
+- [opencensus-go-kafka-exporter](https://github.com/census-ecosystem/opencensus-go-kafka-exporter)
+
 ### Java
+
+- [OpenCensus Agent](https://opencensus.io/exporters/supported-exporters/java/ocagent/)
+- Stackdriver: [Tracing](https://opencensus.io/exporters/supported-exporters/java/stackdriver-trace/) [Stats](https://opencensus.io/exporters/supported-exporters/java/stackdriver-stats/)
+- [AWS X-Ray](https://github.com/shirou/opencensus-exporter-trace-xray) by [@shirou](https://github.com/shirou)
+
+#### Tracing
+
+- [Jaeger](https://opencensus.io/exporters/supported-exporters/java/jaeger/)
+- [Zipkin](https://opencensus.io/exporters/supported-exporters/java/zipkin/)
+- [Instana](https://opencensus.io/exporters/supported-exporters/java/instana/)
+- [Datadog](https://github.com/census-instrumentation/opencensus-java/tree/master/exporters/trace/datadog)
+- [Logging](https://github.com/census-instrumentation/opencensus-java/tree/master/exporters/trace/logging)
+
+#### Stats/Metrics
+
+- [SignalFx](https://opencensus.io/exporters/supported-exporters/java/signalfx/)
+- [Prometheus](https://opencensus.io/exporters/supported-exporters/java/prometheus/)
 
 ### C#
 
+#### Tracing
+
+#### Stats/Metrics
+
 ### C++
+
+#### Tracing
+
+#### Stats/Metrics
 
 ### JavaScript
 
+#### Tracing
+
+#### Stats/Metrics
+
 ### Ruby
+
+- [opencensus-ruby-exporter-ocagent](https://github.com/census-ecosystem/opencensus-ruby-exporter-ocagent)
+- [opencensus-ruby-exporter-stackdriver](https://github.com/census-ecosystem/opencensus-ruby-exporter-stackdriver)
+
+#### Tracing
+
+- [opencensus-ruby-exporter-zipkin](https://github.com/census-ecosystem/opencensus-ruby-exporter-zipkin)
 
 ### Erlang/Elixir
 
+#### Tracing
+
+#### Stats/Metrics
+
 ### Python
 
+#### Tracing
+
+#### Stats/Metrics
+
+### PHP
+
+- [opencensus-php-exporter-stackdriver](https://github.com/census-ecosystem/opencensus-php-exporter-stackdriver)
+
+#### Tracing
+
+- [opencensus-php-exporter-jaeger](https://github.com/census-ecosystem/opencensus-php-exporter-jaeger)
+- [opencensus-php-exporter-zipkin](https://github.com/census-ecosystem/opencensus-php-exporter-zipkin)
+- [opencensus-php-exporter-instana](https://github.com/census-ecosystem/opencensus-php-exporter-instana)
 
 ## Supported Backends
 
