@@ -20,6 +20,15 @@
   - [Ruby](#ruby-1)
   - [Erlang/Elixir](#erlangelixir-1)
   - [Python](#python-1)
+- [Examples](#examples)
+  - [Go](#go-2)
+  - [Java](#java-2)
+  - [C#](#c-4)
+  - [C++](#c-5)
+  - [JavaScript](#javascript-6)
+  - [Ruby](#ruby-7)
+  - [Erlang/Elixir](#erlangelixir-1)
+  - [Python](#python-1)
 - [Supported Backends](#supported-backends)
 - [Resources](#resources)
   - [Websites](#websites)
@@ -32,6 +41,7 @@
 ### Go
 
 - [opencensus-go](https://github.com/census-instrumentation/opencensus-go)
+- [ocsql](https://github.com/opencensus-integrations/ocsql): OpenCensus SQL database driver wrapper for Go
 
 ### Java
 
@@ -81,6 +91,7 @@
 - [OpenCensus Agent](https://opencensus.io/exporters/supported-exporters/go/ocagent/)
 - [Stackdriver](https://opencensus.io/exporters/supported-exporters/go/stackdriver/)
 - [Datadog](https://opencensus.io/exporters/supported-exporters/go/datadog/)
+- [KrakenD](https://github.com/devopsfaith/krakend-opencensus) by @devopsfaith
 
 #### Tracing
 
@@ -95,6 +106,7 @@
 - [opencensus-go-exporter-signalfx](https://github.com/census-ecosystem/opencensus-go-exporter-signalfx)
 - [opencensus-go-exporter-graphite](https://github.com/census-ecosystem/opencensus-go-exporter-graphite)
 - [opencensus-go-kafka-exporter](https://github.com/census-ecosystem/opencensus-go-kafka-exporter)
+- [InfluxDB](https://github.com/egymgmbh/opencensus-go-exporter-influxdb)
 
 ### Java
 
@@ -109,6 +121,7 @@
 - [Instana](https://opencensus.io/exporters/supported-exporters/java/instana/)
 - [Datadog](https://github.com/census-instrumentation/opencensus-java/tree/master/exporters/trace/datadog)
 - [Logging](https://github.com/census-instrumentation/opencensus-java/tree/master/exporters/trace/logging)
+- [LightStep](https://github.com/lightstep/lightstep-census-java)
 
 #### Stats/Metrics
 
@@ -189,6 +202,34 @@
 - [opencensus-php-exporter-jaeger](https://github.com/census-ecosystem/opencensus-php-exporter-jaeger)
 - [opencensus-php-exporter-zipkin](https://github.com/census-ecosystem/opencensus-php-exporter-zipkin)
 - [opencensus-php-exporter-instana](https://github.com/census-ecosystem/opencensus-php-exporter-instana)
+
+## Examples
+
+### Go
+
+- [opencensus-gokit-example](https://github.com/basvanbeek/opencensus-gokit-example)
+- [Tutorial for OpenCensus for gRPC Go developers](https://github.com/orijtech/opencensus-for-grpc-go-developers)
+
+### Java
+
+- [gRPC/OpenCensus Demo](https://github.com/rakyll/opencensus-grpc-demo)
+- [OpenCensus - A stats collection and distributed tracing framework](https://github.com/maurocanuto/distributed-tracing-opencensus)
+
+### C#
+
+- [Hipster Shop: Cloud-Native Microservices Demo Application](https://github.com/GoogleCloudPlatform/microservices-demo)
+
+### C++
+
+### JavaScript
+
+- [Lightning-Talk Style Demo of Istio and OpenCensus](https://github.com/thesandlord/Istio101)
+
+### Ruby
+
+### Erlang/Elixir
+
+### Python
 
 ## Supported Backends
 
