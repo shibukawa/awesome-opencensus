@@ -238,8 +238,10 @@
 ### Websites
 
 * [OpenCensus](https://opencensus.io/)
+  * [Twitter](https://twitter.com/opencensusio)
   * [GitHub: census-instrumentation org](https://github.com/census-instrumentation)
   * [GitHub: census-ecosystem org](https://github.com/census-ecosystem)
+  * [GitHub: OpenCensus Integrations org](https://github.com/opencensus-integrations)
 * [OpenTracing](https://opentracing.io/)
   * [blog: Merging OpenTracing and OpenCensus: Goals and Non-Goals](https://medium.com/opentracing/merging-opentracing-and-opencensus-f0fe9c7ca6f0)
 
