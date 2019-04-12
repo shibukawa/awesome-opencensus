@@ -16,6 +16,7 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
   - [Erlang/Elixir](#erlangelixir)
   - [Python](#python)
   - [PHP](#php)
+  - [Clojure](#clojure)
   - [For Middlewares](#for-middlewares)
 - [Exporters](#exporters)
   - [Go](#go-1)
@@ -27,6 +28,8 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
   - [Erlang/Elixir](#erlangelixir-1)
   - [Python](#python-1)
   - [PHP](#php-1)
+- [Useful Libraries](#useful-libraries)
+- [Useful Tools](#useful-tools)
 - [Examples](#examples)
   - [Go](#go-2)
   - [Java](#java-2)
@@ -37,9 +40,12 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
   - [Erlang/Elixir](#erlangelixir-1)
   - [Python](#python-2)
   - [PHP](#php-2)
+  - [Scala](#scala)
+  - [Kotlin](#kotlin)
 - [Supported Backends](#supported-backends)
 - [Resources](#resources)
   - [Websites](#websites)
+  - [Training](#training)
   - [Community](#community)
   - [Influential Books](#influential-books)
 - [Contributing](#contributing)
@@ -49,8 +55,11 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 ### Go
 
 - [opencensus-go](https://github.com/census-instrumentation/opencensus-go)
+  - [ocgrpc](https://godoc.org/go.opencensus.io/plugin/ocgrpc): Package ocgrpc contains OpenCensus stats and trace integrations for gRPC.
+  - [ochttp](https://godoc.org/go.opencensus.io/plugin/ochttp): Package ochttp provides OpenCensus instrumentation for net/http package.
 - [ocsql](https://github.com/opencensus-integrations/ocsql): OpenCensus SQL database driver wrapper for Go
 - [gomongowrapper](https://github.com/opencensus-integrations/gomongowrapper): MongoDB Go wrapper source code
+- [go-http-metrics](https://github.com/slok/go-http-metrics) by slok: It supports Go http.Handler, Negroni, httprouter, go-restful
 
 ### Java
 
@@ -59,6 +68,7 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 - [opencensus-java-jdbc](https://github.com/census-ecosystem/opencensus-java-jdbc)
 - [inspectIT Ocelot](http://docs.inspectit.rocks/releases/latest/)
 - [ocspymemcached](https://github.com/opencensus-integrations/ocspymemcached): Spymemcached wrapper instrumented with OpenCensus
+- [ocjedis](https://github.com/orijtech/ocjedis): Jedis wrapper instrumented with OpenCensus
 
 ### C#
 
@@ -110,7 +120,6 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
   - [opencensus-ext-django](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-django): OpenCensus Django Integration
   - [opencensus-ext-google-cloud-clientlibs](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-google-cloud-clientlibs): OpenCensus Google Cloud Client Libraries Integration
   - [opencensus-ext-grpc](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-grpc): OpenCensus gRPC Integration
-  
   - [opencensus-ext-httplib](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-httplib): OpenCensus httplib Integration
   - [opencensus-ext-postgresql](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-postgresql): OpenCensus PostgreSQL([psycopg2](https://pypi.org/project/psycopg2)) Integration
   - [opencensus-ext-pymongo](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-pymongo): OpenCensus pymongo Integration
@@ -131,10 +140,16 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
   - [WordPress integration document](https://opencensus.io/api/php/integrating-wordpress/)
   - [Guzzle HTTP Client integration document](https://opencensus.io/api/php/integrating-guzzle/)
 
+### Clojure
+
+- [opencensus-clojure](https://github.com/uswitch/opencensus-clojure)
+
 ### For Middlewares
 
 - MongoDB
   - [mongostatusd](https://github.com/opencensus-integrations/mongostatusd): MongoDB server status daemon
+- StatsD
+  - [stats-opencensus-backend](https://github.com/DazWilkin/statsd-opencensus-backend)
 
 ## Exporters
 
@@ -143,7 +158,7 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 - [OpenCensus Agent](https://opencensus.io/exporters/supported-exporters/go/ocagent/)
 - [Stackdriver](https://opencensus.io/exporters/supported-exporters/go/stackdriver/)
 - [Datadog](https://opencensus.io/exporters/supported-exporters/go/datadog/)
-- [KrakenD](https://github.com/devopsfaith/krakend-opencensus) by @devopsfaith
+- [krakend-opencensus](https://github.com/devopsfaith/krakend-opencensus) by @devopsfaith
 
 #### Tracing
 
@@ -151,6 +166,7 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 - [Jaeger](https://opencensus.io/exporters/supported-exporters/go/jaeger/)
 - [Zipkin](https://opencensus.io/exporters/supported-exporters/go/zipkin/)
 - [AWS X-Ray](https://opencensus.io/exporters/supported-exporters/go/xray/)
+- [AWS CloudWatch](https://github.com/fllaca/opencensus-cloudwatch-exporter)
 
 #### Stats/Metrics
 
@@ -158,7 +174,9 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 - [opencensus-go-exporter-signalfx](https://github.com/census-ecosystem/opencensus-go-exporter-signalfx)
 - [opencensus-go-exporter-graphite](https://github.com/census-ecosystem/opencensus-go-exporter-graphite)
 - [opencensus-go-kafka-exporter](https://github.com/census-ecosystem/opencensus-go-kafka-exporter)
-- [InfluxDB](https://github.com/egymgmbh/opencensus-go-exporter-influxdb)
+- InfluxDB
+  - [github.com/egymgmbh/opencensus-go-exporter-influxdb](https://github.com/egymgmbh/opencensus-go-exporter-influxdb)
+  - [github.com/kpacha/opencensus-influxdb](https://github.com/kpacha/opencensus-influxdb)
 
 ### Java
 
@@ -233,6 +251,7 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 
 - [LoggerExporter](https://www.rubydoc.info/gems/opencensus/OpenCensus/Trace/Exporters/Logger): Exporter JSON encoded spans to a standard Ruby Logger interface
 - [opencensus-ruby-exporter-zipkin](https://github.com/census-ecosystem/opencensus-ruby-exporter-zipkin)
+- [OpenCensus::Jaeger](https://github.com/Thinkei/opencensus-ruby-exporter-jaeger)
 
 ### Erlang/Elixir
 
@@ -256,6 +275,7 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 - [opencensus-ext-ocagent](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-ocagent): OpenCensus OC-Agent Trace Exporter
 - [opencensus-ext-jaeger](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-jaeger): OpenCensus Jaeger Exporter
 - [opencensus-ext-zipkin](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-zipkin): OpenCensus Zipkin Exporter
+- [ochoneycomb](https://github.com/codeboten/ochoneycomb): OpenCensus Python exporter for Honeycomb
 
 #### Stats/Metrics
 
@@ -275,6 +295,18 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 - [NullExporter](https://opencensus.io/api/php/api/master/OpenCensus/Trace/Exporter/NullExporter.html): No-op	
 - [OneLineEchoExporter](https://opencensus.io/api/php/api/master/OpenCensus/Trace/Exporter/OneLineEchoExporter.html): Output the collected spans to stdout with one-line	
 
+## Useful Libraries
+
+- [rpcx](https://github.com/smallnest/rpcx): Faster multil-language (java, php, python, c/c++, node.js, c#, etc...) bidirectional RPC framework in Go, like alibaba Dubbo, but with more features, Scale easily. Try it. Test it. If you feel it's better, use it!
+- [ocgoconfig](https://github.com/bweston92/ocgoconfig): OpenCensus Configuration for Golang
+- [OpenCensus Utils](https://github.com/QubitProducts/qubit-opencensus): A collection of tools for use with OpenCensus Python
+
+## Useful Tools
+
+- [Microsoft/ApplicationInsights-LocalForwarder](https://github.com/Microsoft/ApplicationInsights-LocalForwarder): Local Forwarder is an agent that collects Application Insights or OpenCensus telemetry from a variety of SDKs and routes it to the Application Insights backend.
+- [opencensus-go-resource](https://github.com/census-ecosystem/opencensus-go-resource): This repository contains Go packages for auto discovery of resource information in various environments.
+- [opencensus-php-docker](https://github.com/basvanbeek/opencensus-php-docker): OpenCensus PHP Ecosystem using Docker Compose for quick prototyping & testing.
+
 ## Examples
 
 ### Go
@@ -282,17 +314,24 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 - [go-kit-example](https://github.com/opencensus-integrations/go-kit-example): Go kit OpenCensus bootstrapping example
 - [opencensus-gokit-example](https://github.com/basvanbeek/opencensus-gokit-example)
 - [Tutorial for OpenCensus for gRPC Go developers](https://github.com/orijtech/opencensus-for-grpc-go-developers)
+- [Go OpenCensus example for Gin and Gorm](https://github.com/sagikazarmark/go-gin-gorm-opencensus)
+- [opencensus-demos](https://github.com/orijtech/opencensus-demos)
 
 ### Java
 
 - [gRPC/OpenCensus Demo](https://github.com/rakyll/opencensus-grpc-demo)
 - [OpenCensus - A stats collection and distributed tracing framework](https://github.com/maurocanuto/distributed-tracing-opencensus)
+- [Distributed tracing example with Opencensus and Jaeger](https://github.com/maurocanuto/distributed-tracing-opencensus)
+- [OpenCensus for Java by Example](https://github.com/saturnism/opencensus-java-by-example)
 
 ### C#
 
 - [Hipster Shop: Cloud-Native Microservices Demo Application](https://github.com/GoogleCloudPlatform/microservices-demo)
+- [Collect distributed traces from Go (to Application Insights)](https://docs.microsoft.com/ja-jp/azure/azure-monitor/app/opencensus-go?WT.mc_id=ignite-twitter-brketels)
 
 ### C++
+
+- [opencensus-for-grpc-cpp-developers](https://github.com/orijtech/opencensus-for-grpc-cpp-developers)
 
 ### JavaScript
 
@@ -304,7 +343,17 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 
 ### Python
 
+- [OpenCensus for Python gRPC developers](https://medium.com/@orijtech/opencensus-for-python-grpc-developers-9e460e054395)
+
 ### PHP
+
+### Scala
+
+- [grpc opencensus example scala](https://github.com/jyane/grpc-opencensus-example-scala)
+
+### Kotlin
+
+- [OpenCensus Demo](https://github.com/athenian-programming/opencensus-demo)
 
 ## Supported Backends
 
@@ -320,6 +369,10 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
   * [GitHub: Opencensus.io integrations for Erlang, Elixir, and other BEAM languages](https://github.com/opencensus-beam)
 * [OpenTracing](https://opentracing.io/)
   * [blog: Merging OpenTracing and OpenCensus: Goals and Non-Goals](https://medium.com/opentracing/merging-opentracing-and-opencensus-f0fe9c7ca6f0)
+
+### Training
+
+- [GoogleCloudPlatform/stackdriver-sandbox](https://github.com/GoogleCloudPlatform/stackdriver-sandbox)
 
 ### Community
 
