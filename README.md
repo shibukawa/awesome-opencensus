@@ -15,6 +15,7 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
   - [Ruby](#ruby)
   - [Erlang/Elixir](#erlangelixir)
   - [Python](#python)
+  - [PHP](#php)
   - [For Middlewares](#for-middlewares)
 - [Exporters](#exporters)
   - [Go](#go-1)
@@ -25,6 +26,7 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
   - [Ruby](#ruby-1)
   - [Erlang/Elixir](#erlangelixir-1)
   - [Python](#python-1)
+  - [PHP](#php-1)
 - [Examples](#examples)
   - [Go](#go-2)
   - [Java](#java-2)
@@ -33,7 +35,8 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
   - [JavaScript](#javascript-6)
   - [Ruby](#ruby-7)
   - [Erlang/Elixir](#erlangelixir-1)
-  - [Python](#python-1)
+  - [Python](#python-2)
+  - [PHP](#php-2)
 - [Supported Backends](#supported-backends)
 - [Resources](#resources)
   - [Websites](#websites)
@@ -260,7 +263,6 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 
 ### PHP
 
-
 #### Tracing
 
 - [StackdriverExporter](https://github.com/census-ecosystem/opencensus-php-exporter-stackdriver)
@@ -301,6 +303,8 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 ### Erlang/Elixir
 
 ### Python
+
+### PHP
 
 ## Supported Backends
 
