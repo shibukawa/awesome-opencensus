@@ -1,6 +1,10 @@
 # Awesome OpenCensus
 
+
+
 ## Contents
+
+Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-beam/awesome-beam-monitoring)
 
 - [Instrumentation](#instrumentation)
   - [Go](#go)
@@ -84,6 +88,15 @@
 ### Erlang/Elixir
 
 - [opencensus-erlang](https://github.com/census-instrumentation/opencensus-erlang)
+  - [Opencensus.Plug](https://github.com/opencensus-beam/opencensus_plug): Plug integration for OpenCensus. It provides tracer and metrics integration.
+  - [OpencensusPhoenix](https://github.com/opencensus-beam/opencensus_phoenix): Phoenix instrumenter callback module to automatically create OpenCensus spans for Phoenix Controller and View information.
+  - [opencensus_cowboy](https://github.com/opencensus-beam/opencensus-cowboy): Opencensus Cowboy integration
+  - [OpenCensus Tesla Middleware](https://github.com/opencensus-beam/opencensus_tesla): OpencensusTesla is a Tesla middleware for generating spans for outgoing requests
+  - [opencensus_elli](https://github.com/opencensus-beam/opencensus_elli): Elli middleware for OpenCensus instrumentation.
+  - [Opencensus.Telemetry](https://github.com/opencensus-beam/opencensus_telemetry): Opencensus integration with Telemetry library
+  - [opencensus_vmstats](https://github.com/opencensus-beam/opencensus_vmstats): An OTP library
+  - [tracelog](https://github.com/opencensus-beam/tracelog): A logging handler that can transforms structured logs into opencensus distributed tracing spans
+- [opencensus_elixir](https://github.com/opencensus-beam/opencensus_elixir)
 
 ### Python
 
@@ -220,9 +233,18 @@
 
 ### Erlang/Elixir
 
+- [OpenCensus Agent Reporter](https://github.com/opencensus-beam/opencensus_service): This reporter exports spans to the OpenCensus Agent in the standard protobuf format over grpc.
+- [oc_datadog](https://github.com/opencensus-beam/opencensus_datadog): Opencensus integration to [DataDog][https://datadoghq.com] traces and metrics (via dogstatsd)
+
 #### Tracing
 
+- [OpenCensus Zipkin Reporter](https://github.com/opencensus-beam/opencensus_zipkin)
+- [oc_google_reporter](https://github.com/opencensus-beam/oc_google_reporter): Reporter for opencensus that implements support for version 1 and 2 of [Google Cloud Trace](https://cloud.google.com/trace/docs/reference/)
+
 #### Stats/Metrics
+
+- [opencensus_influxdb](https://github.com/opencensus-beam/opencensus_influxdb)
+- [Opencensus Prometheus integration](https://github.com/opencensus-beam/prometheus)
 
 ### Python
 
@@ -291,6 +313,7 @@
   * [GitHub: census-instrumentation org](https://github.com/census-instrumentation)
   * [GitHub: census-ecosystem org](https://github.com/census-ecosystem)
   * [GitHub: OpenCensus Integrations org](https://github.com/opencensus-integrations)
+  * [GitHub: Opencensus.io integrations for Erlang, Elixir, and other BEAM languages](https://github.com/opencensus-beam)
 * [OpenTracing](https://opentracing.io/)
   * [blog: Merging OpenTracing and OpenCensus: Goals and Non-Goals](https://medium.com/opentracing/merging-opentracing-and-opencensus-f0fe9c7ca6f0)
 
