@@ -78,6 +78,8 @@
 ### Ruby
 
 - [opencensus-ruby](https://github.com/census-instrumentation/opencensus-ruby)
+  - [Ruby on Rails](https://github.com/census-instrumentation/opencensus-ruby#getting-started-with-ruby-on-rails): Automatically tracing incoming requests in the application, database queries, view rendering
+  - [Rack based frameworks](https://github.com/census-instrumentation/opencensus-ruby#getting-started-with-other-rack-based-frameworks): Automatically traces incoming requests
 
 ### Erlang/Elixir
 
@@ -86,8 +88,32 @@
 ### Python
 
 - [opencensus-python](https://github.com/census-instrumentation/opencensus-python)
+  - [opencensus-ext-dbapi](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-dbapi): OpenCensus Database API Integration
+  - [opencensus-ext-django](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-django): OpenCensus Django Integration
+  - [opencensus-ext-flask](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-flask): OpenCensus Flask Integration
+  - [opencensus-ext-django](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-django): OpenCensus Django Integration
+  - [opencensus-ext-google-cloud-clientlibs](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-google-cloud-clientlibs): OpenCensus Google Cloud Client Libraries Integration
+  - [opencensus-ext-grpc](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-grpc): OpenCensus gRPC Integration
+  
+  - [opencensus-ext-httplib](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-httplib): OpenCensus httplib Integration
+  - [opencensus-ext-postgresql](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-postgresql): OpenCensus PostgreSQL([psycopg2](https://pypi.org/project/psycopg2)) Integration
+  - [opencensus-ext-pymongo](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-pymongo): OpenCensus pymongo Integration
+  - [opencensus-ext-pymysql](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-pymysql): OpenCensus PyMySQL Integration
+  - [opencensus-ext-pyramid](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-pyramid): OpenCensus Pyramid Integration
+  - [opencensus-ext-requests](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-requests): OpenCensus [requests](https://pypi.python.org/pypi/requests) Integration
+  - [opencensus-ext-sqlalchemy](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-sqlalchemy): OpenCensus[SQLAlchemy](https://pypi.org/project/SQLAlchemy) Integration
+  - [opencensus-ext-threading](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-threading): OpenCensus threading Integration
 - [ocredispy](https://github.com/opencensus-integrations/ocredispy): OpenCensus wrapper for redis-py
 - [ocpymemcache](https://github.com/opencensus-integrations/ocpymemcache): PyMemcache Python wrapper with observability provided by OpenCensus
+
+### PHP
+
+- [opencensus-python](https://github.com/census-instrumentation/opencensus-python): [Official ocument](https://opencensus.io/api/php/)
+  - [Laravel integration document](https://opencensus.io/api/php/integrating-laravel/)
+  - [Silex integration document](https://opencensus.io/api/php/integrating-silex/)
+  - [Symfony integration document](https://opencensus.io/api/php/integrating-symfony/)
+  - [WordPress integration document](https://opencensus.io/api/php/integrating-wordpress/)
+  - [Guzzle HTTP Client integration document](https://opencensus.io/api/php/integrating-guzzle/)
 
 ### For Middlewares
 
@@ -189,6 +215,7 @@
 
 #### Tracing
 
+- [LoggerExporter](https://www.rubydoc.info/gems/opencensus/OpenCensus/Trace/Exporters/Logger): Exporter JSON encoded spans to a standard Ruby Logger interface
 - [opencensus-ruby-exporter-zipkin](https://github.com/census-ecosystem/opencensus-ruby-exporter-zipkin)
 
 ### Erlang/Elixir
@@ -201,17 +228,28 @@
 
 #### Tracing
 
+- [opencensus-ext-ocagent](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-ocagent): OpenCensus OC-Agent Trace Exporter
+- [opencensus-ext-jaeger](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-jaeger): OpenCensus Jaeger Exporter
+- [opencensus-ext-zipkin](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-zipkin): OpenCensus Zipkin Exporter
+
 #### Stats/Metrics
+
+- [opencensus-ext-prometheus](https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-prometheus): OpenCensus Prometheus Exporter
 
 ### PHP
 
-- [opencensus-php-exporter-stackdriver](https://github.com/census-ecosystem/opencensus-php-exporter-stackdriver)
 
 #### Tracing
 
-- [opencensus-php-exporter-jaeger](https://github.com/census-ecosystem/opencensus-php-exporter-jaeger)
-- [opencensus-php-exporter-zipkin](https://github.com/census-ecosystem/opencensus-php-exporter-zipkin)
-- [opencensus-php-exporter-instana](https://github.com/census-ecosystem/opencensus-php-exporter-instana)
+- [StackdriverExporter](https://github.com/census-ecosystem/opencensus-php-exporter-stackdriver)
+- [JaegerExporter](https://github.com/census-ecosystem/opencensus-php-exporter-jaeger)
+- [ZipkinExporter](https://github.com/census-ecosystem/opencensus-php-exporter-zipkin)
+- [InstanaExporter](https://github.com/census-ecosystem/opencensus-php-exporter-instana)
+- [EchoExporter](https://opencensus.io/api/php/api/master/OpenCensus/Trace/Exporter/EchoExporter.html): Output the collected spans to stdout	
+- [FileExporter](https://opencensus.io/api/php/api/master/OpenCensus/Trace/Exporter/FileExporter.html): Output JSON encoded spans to a file	
+- [LoggerExporter](https://opencensus.io/api/php/api/master/OpenCensus/Trace/Exporter/LoggerExporter.html):	Exporter JSON encoded spans to a PSR-3 logger	
+- [NullExporter](https://opencensus.io/api/php/api/master/OpenCensus/Trace/Exporter/NullExporter.html): No-op	
+- [OneLineEchoExporter](https://opencensus.io/api/php/api/master/OpenCensus/Trace/Exporter/OneLineEchoExporter.html): Output the collected spans to stdout with one-line	
 
 ## Examples
 
