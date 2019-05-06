@@ -370,6 +370,10 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 * [OpenTracing](https://opentracing.io/)
   * [blog: Merging OpenTracing and OpenCensus: Goals and Non-Goals](https://medium.com/opentracing/merging-opentracing-and-opencensus-f0fe9c7ca6f0)
 
+### Presentation
+
+* [Troubleshoot Your RoR Microservices with Distributed Tracing](https://speakerdeck.com/kawasy/railsconf-2019-troubleshoot-your-ror-microservices-with-distributed-tracing) (at RailsConf 2019)
+
 ### Training
 
 - [GoogleCloudPlatform/stackdriver-sandbox](https://github.com/GoogleCloudPlatform/stackdriver-sandbox)
