@@ -387,7 +387,9 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 
 #### Japan
 
+* [Observability Japan(Discord Group)](https://discordapp.com/invite/dcvSbt2)
 * [OpenCensus meetup vol.1](https://opencensus.connpass.com/event/123885/): Tokyo 2019/Apr/03
+* [OpenCensus/OpenTelemetry meetup vol.2](https://opencensus.connpass.com/event/132588/): Tokyo 2019/Jun/27
 
 ## Contributing
 
