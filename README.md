@@ -50,7 +50,7 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
   - [Influential Books](#influential-books)
 - [Contributing](#contributing)
 
-## Instrumentation
+## Integrations
 
 ### Go
 
