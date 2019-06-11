@@ -373,6 +373,7 @@ Erlang/Elixir users -> See also [awesome-beam](https://github.com/opencensus-bea
 ### Blogs
 
 * [OpenCensus Service Configuration](https://omnition.io/blog/opencensus-service-configuration/)
+* [Future Architect Tech Blog: What is OpenCensus(OpenTelemetry) (Japanese)](https://future-architect.github.io/articles/20190604/)
 
 ### Presentation
 
